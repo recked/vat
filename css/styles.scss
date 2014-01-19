@@ -1,0 +1,60 @@
+/* From the starter kit */
+
+#div1,
+#div2 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+#div3 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #aaaaaa;
+}
+/* Making it look good */
+
+html,body {
+    height: 100%;
+}
+/* Wrapper for page content to push down footer */
+
+#wrap {
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+}
+/* Set the fixed height of the footer here */
+
+#footer {
+    height: 60px;
+}
+.header {
+    border-bottom: 1px solid #e5e5e5;
+    margin: 20px 0 30px 0;
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 40px;
+        padding-bottom: 19px;
+    }
+}
+.mem { /*class for membership containers */
+    text-align: center;
+}
+#mem1,
+#mem2,
+#mem3 {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #aaaaaa;
+    text-align: center;
+}
