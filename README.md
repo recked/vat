@@ -13,9 +13,18 @@ Once my grade is up, I don't mind leaving this project up as an example.
 
 ===
 
+###Objectives
+
+
+
+
+
+===
+
 ###Project Status
 
 1/18/14
 - Edited starter js.
 - Threw it in Bootstrap. Overkill, but faster css styling for the points.
 - Code correctly identifies which membership the 'coupon' is in.
+
