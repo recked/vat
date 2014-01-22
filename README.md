@@ -36,3 +36,6 @@ Once my grade is up, I don't mind leaving this project up as an example.
 - Project files tracked by git on local machine.
 - Added more js to handle controls
 - More styles
+
+1/21/14
+- #justjavascriptthings :D
