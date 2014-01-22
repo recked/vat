@@ -6,8 +6,8 @@ $(document).ready(function () {
     $('#good1').hide();
     $('#good2').hide();
     $('#good3').hide();
-    
-   // $('#good').modal();
+
+    // $('#good').modal();
 
 
 });
@@ -38,18 +38,18 @@ function drop(ev) {
     if (what == 'mem1') {
         $('#good2').hide();
         $('#good3').hide();
-        
+
         $('#good1').show();
 
     } else if (what == 'mem2') {
         $('#good1').hide();
         $('#good3').hide();
-        
+
         $('#good2').show();
     } else if (what == 'mem3') {
         $('#good2').hide();
         $('#good1').hide();
-        
+
         $('#good3').show();
     } else {
         $('#good1').hide();
@@ -60,3 +60,44 @@ function drop(ev) {
 
 
 }
+
+
+// Filling the modal with info for each membership
+
+$("#good1").click(function (event) {
+
+    $("#membership").html('Thank you for choosing the Frugal plan');
+
+});
+$("#good2").click(function (event) {
+
+    $("#membership").html('Thank you for choosing the Pro plan');
+
+
+});
+$("#good3").click(function (event) {
+
+    $("#membership").html('Thank you for choosing the Attonery plan');
+
+
+});
+
+// Filling the modal with info for each coupon. Check for each coupon type and store the one based on which one is in the container?
+
+$("#good1").click(function (event) {
+
+    $("#amount").html('3 months');
+
+});
+$("#good2").click(function (event) {
+
+    $("#amount").html('6 months');
+
+
+});
+$("#good3").click(function (event) {
+
+
+    $("#amount").html('1 year');
+
+});

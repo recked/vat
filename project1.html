@@ -84,15 +84,19 @@
                     </div>
                 </div>
             </div>
+            <!-- start coupons -->
             <div class="row">
+                <div class="col-lg-4"></div>
                 <div class="col-lg-4">
-                    <img src="img/earth.gif" alt='coupon1' draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="88">
-                </div>
-                <div class="col-lg-4">
-                    <img src="img/earth.gif" alt='coupon2' draggable="true" ondragstart="drag(event)" id="drag2" width="88" height="88">
-                </div>
-                <div class="col-lg-4">
-                    <img src="img/earth.gif" alt='coupon3' draggable="true" ondragstart="drag(event)" id="drag3" width="88" height="88">
+                    <div id="mem4" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                        <img src="img/earth.gif" alt='coupon1' draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="88">
+
+                        <img src="img/earth.gif" alt='coupon2' draggable="true" ondragstart="drag(event)" id="drag2" width="88" height="88">
+
+                        <img src="img/earth.gif" alt='coupon3' draggable="true" ondragstart="drag(event)" id="drag3" width="88" height="88">
+                    </div>
+                    <div class="col-lg-4"></div>
                 </div>
             </div>
             <div class="row">
@@ -115,14 +119,14 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title">Modal title</h4>
+                        <h4 class="modal-title">Congratulations!</h4>
                     </div>
                     <div class="modal-body">
-                        <p>One fine body&hellip;</p>
+                        <div id="membership"></div>
+                        <div id="amount"></div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
+                        <button type="button" class="btn btn-default" data-dismiss="modal" id="clear">Close</button>
                     </div>
                 </div>
                 <!-- /.modal-content -->
