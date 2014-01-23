@@ -35,85 +35,88 @@
                 </ul>-->
                 <h3 class="text-muted">Vampire Association of Transylflorida</h3>
             </div>
+            <div id="blank">
+                <div class="jumbotron">
+                    <h1>Welcome to VAT</h1>
+                    <p class="lead">Drag a coupon below to the membership of your choice.</p>
 
-            <div class="jumbotron">
-                <h1>Welcome to VAT</h1>
-                <p class="lead">Drag a coupon below to the membership of your choice.</p>
-
-            </div>
-
-            <div class="row ">
-
-                <div class="col-lg-4">
-                    <div class="mem">
-
-                        <h4>Frugal</h4>
-                        <p>This membership plan offers Type A blood from starving college students.</p>
-                        <p>Membership fee: $19/month</p>
-                        <div id="mem1" ondrop="drop(event)" ondragover="allowDrop(event)">
-                        </div>
-                        <button type="button" class="btn btn-success" id='good1' data-toggle="modal" data-target="#good">Continue
-                            <span class="glyphicon glyphicon-arrow-right"></span>
-                        </button>
-                    </div>
                 </div>
 
-                <div class="col-lg-4">
-                    <div class="mem">
-                        <h4>Pro</h4>
-                        <p>This membership plan offers all blood types and access to healthy, fully employed professionals.</p>
-                        <p>Membership fee: $39/month</p>
-                        <div id="mem2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="row ">
+
+                    <div class="col-lg-4">
+                        <div class="mem">
+
+                            <h4>Frugal</h4>
+                            <p>This membership plan offers Type A blood from starving college students.</p>
+                            <p>Membership fee: $19/month</p>
+                            <div id="mem1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            </div>
+                            <button type="button" class="btn btn-success" id='good1' data-toggle="modal" data-target="#good">Continue
+                                <span class="glyphicon glyphicon-arrow-right"></span>
+                            </button>
                         </div>
-                        <button type="button" class="btn btn-success" id='good2' data-toggle="modal" data-target="#good">Continue
-                            <span class="glyphicon glyphicon-arrow-right"></span>
-                        </button>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="mem">
+                            <h4>Pro</h4>
+                            <p>This membership plan offers all blood types and access to healthy, fully employed professionals.</p>
+                            <p>Membership fee: $39/month</p>
+                            <div id="mem2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            </div>
+                            <button type="button" class="btn btn-success" id='good2' data-toggle="modal" data-target="#good">Continue
+                                <span class="glyphicon glyphicon-arrow-right"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+
+                        <div class="mem">
+                            <h4>Attorney</h4>
+                            <p>This membership plan offers the blood of attorneys...</p>
+                            <p>Membership fee: $0</p>
+                            <div id="mem3" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            </div>
+                            <button type="button" class="btn btn-success" id='good3' data-toggle="modal" data-target="#good">Continue
+                                <span class="glyphicon glyphicon-arrow-right"></span>
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <!-- start coupons -->
+                <div class="row">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                        <div id="mem4" ondrop="drop(event)" ondragover="allowDrop(event)">
 
-                    <div class="mem">
-                        <h4>Attorney</h4>
-                        <p>This membership plan offers the blood of attorneys...</p>
-                        <p>Membership fee: $0</p>
-                        <div id="mem3" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="img/earth.gif" alt='$5 off 3 months' draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="88">
+
+                            <img src="img/earth.gif" alt='$10 off 6 months' draggable="true" ondragstart="drag(event)" id="drag2" width="88" height="88">
+
+                            <img src="img/earth.gif" alt='$25 off 1 year' draggable="true" ondragstart="drag(event)" id="drag3" width="88" height="88">
                         </div>
-                        <button type="button" class="btn btn-success" id='good3' data-toggle="modal" data-target="#good">Continue
-                            <span class="glyphicon glyphicon-arrow-right"></span>
-                        </button>
+                        <div class="col-lg-4"></div>
                     </div>
                 </div>
-            </div>
-            <!-- start coupons -->
-            <div class="row">
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4">
-                    <div id="mem4" ondrop="drop(event)" ondragover="allowDrop(event)">
-
-                        <img src="img/earth.gif" alt='coupon1' draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="88">
-
-                        <img src="img/earth.gif" alt='coupon2' draggable="true" ondragstart="drag(event)" id="drag2" width="88" height="88">
-
-                        <img src="img/earth.gif" alt='coupon3' draggable="true" ondragstart="drag(event)" id="drag3" width="88" height="88">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div id="notice"></div>
                     </div>
                     <div class="col-lg-4"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div id="notice"></div>
-                </div>
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4">
-                    <!--<button type="button" class="btn btn-success" id='good'>Continue
+                    <div class="col-lg-4">
+                        <!--<button type="button" class="btn btn-success" id='good'>Continue
                         <span class="glyphicon glyphicon-arrow-right"></span>
                     </button>-->
+                    </div>
                 </div>
             </div>
-
+            <!-- End blank -->
         </div>
         <!-- /container -->
 
+
+        <!-- One fine body...haha -->
         <div class="modal fade" id="good" tabindex="-1" role="dialog" aria-labelledby="goodLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -124,6 +127,7 @@
                     <div class="modal-body">
                         <div id="membership"></div>
                         <div id="amount"></div>
+                        <div id="total"></div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal" id="clear">Close</button>
