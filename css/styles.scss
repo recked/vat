@@ -1,27 +1,19 @@
-/* From the starter kit */
+/* 
+Project 1 - VAT
+Web Workshop Spring 2014
+Arissa Brown
+https://github.com/recked/
+*/
 
-#div1,
-#div2 {
-    float: left;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #aaaaaa;
-}
-#div3 {
-    float: left;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    padding: 10px;
-    border: 3px solid #aaaaaa;
-}
 /* Making it look good */
 
-html,
+$blood:#900;
+ $dark:#800;
+ $black:#181b1d;
+ html,
 body {
     height: 100%;
+    background: $black;
 }
 /* Wrapper for page content to push down footer */
 
@@ -37,9 +29,17 @@ body {
 
 #footer {
     height: 60px;
+    a{
+        color:#aaa;
+        font-weight:600;
+        text-decoration:none;
+        &:hover{
+            color:$blood;
+        }
+    }
 }
 .header {
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #900;
     margin: 20px 0 30px 0;
     h3 {
         margin-top: 0;
@@ -47,22 +47,76 @@ body {
         line-height: 40px;
         padding-bottom: 19px;
     }
+    a {
+        color: $blood;
+        text-decoration: none;
+    }
+}
+.blood {
+    color: $blood;
+}
+.jumbotron {
+    background-color: $blood;
+    color: $black;
 }
 .mem {
     /*class for membership containers */
     text-align: center;
 }
+.btn-success {
+    background: $blood;
+    border-color: $dark;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
+    background: $dark;
+    border-color: $blood;
+}
+.buff {
+    /* adding some spacing */
+    margin-top: 20px;
+}
 #mem1,
 #mem2,
 #mem3 {
     width: 100%;
-    height: 100px;
-    border: 1px solid #aaaaaa;
+    height: 150px;
+    border: 2px dashed #aaaaaa;
     text-align: center;
+    padding:10px;
+    img {
+        width: 50%;
+    }
+}
+#good1,
+#good2,
+#good3 {
+    margin-top:-80px;
 }
 #mem4 {
     /* container for coupon start */
-    border: 1px solid #aaaaaa;
+    /*border: 1px solid #aaaaaa;*/
     width: 100%;
     height: 100px;
+    text-align: center;
+    img {
+        width: 50%;
+    }
+}
+#blank {
+    a {
+        text-decoration: none;
+        &:hover {
+            color: $black;
+        }
+    }
+}
+.modal-content{
+    background-color:$black;
+    color:$blood;
+}
+.modal-header,
+.modal-footer {
+    border: none;
 }

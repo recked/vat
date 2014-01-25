@@ -33,19 +33,25 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>-->
-                <h3 class="text-muted">Vampire Association of Transylflorida</h3>
+                <h1 class="blood">
+                    <a href="project1.html">Vampire Association of Transylflorida</a>
+                </h1>
             </div>
-            <div id="blank">
-                <div class="jumbotron">
-                    <h1>Welcome to VAT</h1>
+        </div>
+
+        <div id="blank">
+
+            <div class="jumbotron">
+                <div class="container">
+                    <h2>Welcome to the Vampire Association of Transylflorida</h2>
                     <p class="lead">Drag a coupon below to the membership of your choice.</p>
-
                 </div>
-
+            </div>
+            <div class="container">
                 <div class="row ">
 
                     <div class="col-lg-4">
-                        <div class="mem">
+                        <div class="mem blood">
 
                             <h4>Frugal</h4>
                             <p>This membership plan offers Type A blood from starving college students.</p>
@@ -59,7 +65,7 @@
                     </div>
 
                     <div class="col-lg-4">
-                        <div class="mem">
+                        <div class="mem blood">
                             <h4>Pro</h4>
                             <p>This membership plan offers all blood types and access to healthy, fully employed professionals.</p>
                             <p>Membership fee: $39/month</p>
@@ -72,10 +78,10 @@
                     </div>
                     <div class="col-lg-4">
 
-                        <div class="mem">
+                        <div class="mem blood">
                             <h4>Attorney</h4>
-                            <p>This membership plan offers the blood of attorneys...</p>
-                            <p>Membership fee: $0</p>
+                            <p>This membership plan offers you the blood of attorneys...</p>
+                            <p>Membership fee: Free</p>
                             <div id="mem3" ondrop="drop(event)" ondragover="allowDrop(event)">
                             </div>
                             <button type="button" class="btn btn-success" id='good3' data-toggle="modal" data-target="#good">Continue
@@ -85,34 +91,25 @@
                     </div>
                 </div>
                 <!-- start coupons -->
-                <div class="row">
-                    <div class="col-lg-4"></div>
-                    <div class="col-lg-4">
-                        <div id="mem4" ondrop="drop(event)" ondragover="allowDrop(event)">
-
-                            <img src="img/earth.gif" alt='$5 off 3 months' draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="88">
-
-                            <img src="img/earth.gif" alt='$10 off 6 months' draggable="true" ondragstart="drag(event)" id="drag2" width="88" height="88">
-
-                            <img src="img/earth.gif" alt='$25 off 1 year' draggable="true" ondragstart="drag(event)" id="drag3" width="88" height="88">
+                <div class="row buff">
+                    <div id="mem4" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="col-lg-4">
+                            <img src="img/coupon1.png" alt='$5 off 3 months' draggable="true" ondragstart="drag(event)" id="drag1">
                         </div>
-                        <div class="col-lg-4"></div>
+                        <div class="col-lg-4">
+                            <img src="img/coupon2.png" alt='$10 off 6 months' draggable="true" ondragstart="drag(event)" id="drag2">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/coupon3.png" alt='$25 off 1 year' draggable="true" ondragstart="drag(event)" id="drag3">
+                        </div>
+
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div id="notice"></div>
-                    </div>
-                    <div class="col-lg-4"></div>
-                    <div class="col-lg-4">
-                        <!--<button type="button" class="btn btn-success" id='good'>Continue
-                        <span class="glyphicon glyphicon-arrow-right"></span>
-                    </button>-->
-                    </div>
-                </div>
+
             </div>
             <!-- End blank -->
         </div>
+
         <!-- /container -->
 
 
@@ -121,16 +118,16 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title">Congratulations!</h4>
+                        <!--<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Congratulations!</h4>-->
                     </div>
                     <div class="modal-body">
                         <div id="membership"></div>
                         <div id="amount"></div>
-                        <div id="total"></div>
+                        <div id="total">Total:</div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal" id="clear">Close</button>
+                        <button type="button" class="btn btn-success" data-dismiss="modal" id="clear">Close</button>
                     </div>
                 </div>
                 <!-- /.modal-content -->
@@ -143,8 +140,8 @@
     <!-- /wrap -->
 
     <div id="footer">
-        <div class="container">
-            <p>&copy; VAT</p>
+        <div class="container blood">
+            <p>&copy; Project 1: VAT by <a href="https://github.com/recked/">Arissa Brown</a></p>
         </div>
     </div>
 
