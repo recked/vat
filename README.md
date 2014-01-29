@@ -4,8 +4,7 @@ HTML5 Drag and Drop. Drag coupons to the membership plans to subscribe with a di
 
 
 ===
-####Project 1
-####Vampire Association of Transylflorida (VAT)
+####Project 1 - Vampire Association of Transylflorida (VAT)
 #####Web Workshop
 
 ###Objectives
